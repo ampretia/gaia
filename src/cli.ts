@@ -39,7 +39,7 @@ yargs
         (yargs) => {
             return yargs.options({
                 file: { alias: 'f', describe: 'file to add', demandOption: true },
-                name: { alias: 'n', describe:"Name to store the .env file under", demandOption: false}
+                name: { alias: 'n', describe: 'Name to store the .env file under', demandOption: false },
             });
         },
         async () => {
